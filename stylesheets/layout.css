@@ -20,9 +20,8 @@
 /* #Page Styles
 ================================================== */
 
-
-
-
+body
+{ background-image:url(../images/sand.jpg); }
 
 ul
 {
@@ -41,7 +40,7 @@ display:block;
 width:120px;
 font-weight:bold;
 color:#FFFFFF;
-background-color: rgb(51,153,204);
+background-color: rgb(59,71,140);
 text-align:center;
 padding:4px;
 text-decoration:none;
@@ -50,6 +49,12 @@ text-transform:uppercase;
 a:hover,a:active
 {
 background-color:rgb(0,102,204)
+}
+h3
+{
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:rgb(211,151,101);
+	text-shadow: 4px 4px rgb(0,51,0);
 }
 
 
