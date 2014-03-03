@@ -1,11 +1,4 @@
-/*
-* Skeleton V1.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 6/20/2012
-*/
+
 
 /* Table of Content
 ==================================================
@@ -21,7 +14,7 @@
 ================================================== */
 
 body
-{ background-image:url(../images/sand.jpg); }
+{ background-image: url(../images/paper.png); }
 
 ul
 {
@@ -55,6 +48,25 @@ h3
 	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:rgb(211,151,101);
 	text-shadow: 4px 4px rgb(0,51,0);
+}
+h1,h5,h4
+{ font-family:"Arial Black", Gadget, sans-serif;
+  color:rgb(59,71,140);
+  text-shadow: 3px 3px rgb(242,225,194);
+   	
+}
+p
+{
+	border:1px solid rgb(0,153,153);
+	
+	color:rgb(37,39,51);
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    	
+}
+
+	form {
+	margin:20px;
+	background-color: rgb(244,192,124);
 }
 
 

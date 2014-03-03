@@ -45,33 +45,55 @@
 <div class="container">
     <div class="nav">
 		<ul> 
+        	<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="advantage.html">Advantage</a></li>
 			<li><a href="guarantee.html">Guarantee</a></li>
 			<li><a href="help.html">Help</a></li>
-			<li><a href="index.html">Home</a></li>
 			<li><a href="popdest.html">Destiontion</a></li>
 		</ul>
 	</div>
 <div class="sixteen columns">
+<a href="index.html"><img src="images/logo.gif"  alt="fvhr" width="200" height="200"
+    id="logo" style="background-color: #CCCCCC; display: block;" /></a>
 	<h1 class="remove-bottom" style="margin-top: 40px">Fantasy vacation Home Rental</h1>
-			<h5></h5>
+			<h5>Welcome to FVHR</h5>
+            <img src="images/map.jpg" alt="map">
 			<hr />
 </div>
 <div class="one-third column">
-			<h3></h3>
+			<h3>Select a date </h3>
 			<p></p>
 </div>
 <div class="one-third column">
-			<h3></h3>
+			<h3>Choose the destination</h3>
 			<p></p>
 			<ul class="square">
 				
 			</ul>
 		</div>
 		<div class="one-third column">
-			<h3></h3>
-			<p>.</p>
+			<h4>For Members only</h4>
+			<script type="text/javascript">
+
+function CheckPassword() {
+  var username=document.login.username.value;
+  var password=document.login.password.value;
+  location.href = username + password+'.htm';
+}
+
+</script>
+
+<form method="post" action="ingen_javascript.htm"
+  onsubmit="CheckPassword();return false;" name="login">
+<pre>
+Username: <input type="text" name="username">
+Password: <input type="password" name="password">
+</pre>
+<input type="submit" value="log in"
+  onclick="CheckPassword();return false;">
+</form>
+ 
 		</div>
 
 	</div><!-- container -->
@@ -80,6 +102,6 @@
 <!-- End Document
 ================================================== -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="../Finning_Marcus_first-delivery/js/scripts.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
